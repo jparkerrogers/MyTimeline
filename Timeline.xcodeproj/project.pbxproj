@@ -123,10 +123,7 @@
 		01E3FC231BE92C7600187536 /* Timeline */ = {
 			isa = PBXGroup;
 			children = (
-				01E3FC301BE92C7600187536 /* Info.plist */,
-				01E3FC2B1BE92C7600187536 /* Assets.xcassets */,
-				01E3FC2D1BE92C7600187536 /* LaunchScreen.storyboard */,
-				01E3FC241BE92C7600187536 /* AppDelegate.swift */,
+				E68DA3A01C7E6F88006FCA53 /* Misc */,
 				01E3FC281BE92C7600187536 /* Main.storyboard */,
 				E660D0FE1C7D874C00B8225B /* Model */,
 				E660D0FF1C7D87AF00B8225B /* View Controllers */,
@@ -186,6 +183,17 @@
 				E660D0F21C7D196000B8225B /* UserController.swift */,
 			);
 			name = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		E68DA3A01C7E6F88006FCA53 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				01E3FC301BE92C7600187536 /* Info.plist */,
+				01E3FC2B1BE92C7600187536 /* Assets.xcassets */,
+				01E3FC2D1BE92C7600187536 /* LaunchScreen.storyboard */,
+				01E3FC241BE92C7600187536 /* AppDelegate.swift */,
+			);
+			name = Misc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
