@@ -15,6 +15,7 @@ class ImageController {
     }
     
     static func imageForIdentifier(identifier: String, completion: (image: UIImage?) -> Void) {
-        completion(image: "MockPhoto")
+        
+        completion(image: UIImage(named: "MockPhoto"))
     }
 }
