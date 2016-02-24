@@ -25,6 +25,7 @@
 		E660D0EF1C7D0D4700B8225B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E660D0EE1C7D0D4700B8225B /* Post.swift */; };
 		E660D0F11C7D0D6200B8225B /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = E660D0F01C7D0D6200B8225B /* Like.swift */; };
 		E660D0F31C7D196000B8225B /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E660D0F21C7D196000B8225B /* UserController.swift */; };
+		E660D1021C7D8F0200B8225B /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E660D1011C7D8F0200B8225B /* PostController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		E660D0EE1C7D0D4700B8225B /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		E660D0F01C7D0D6200B8225B /* Like.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
 		E660D0F21C7D196000B8225B /* UserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		E660D1011C7D8F0200B8225B /* PostController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 		E660D1001C7D87C600B8225B /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E660D1011C7D8F0200B8225B /* PostController.swift */,
 				E660D0F21C7D196000B8225B /* UserController.swift */,
 			);
 			name = "Model Controllers";
@@ -325,6 +328,7 @@
 				E660D0ED1C7D0C2700B8225B /* Comment.swift in Sources */,
 				E660D0EB1C7D094400B8225B /* User.swift in Sources */,
 				E660D0DF1C7D03FA00B8225B /* UserSearchTableViewController.swift in Sources */,
+				E660D1021C7D8F0200B8225B /* PostController.swift in Sources */,
 				E660D0E71C7D07F100B8225B /* LoginSignUpChoiceViewController.swift in Sources */,
 				E660D0DD1C7CFFD200B8225B /* PostDetailTableViewController.swift in Sources */,
 			);
