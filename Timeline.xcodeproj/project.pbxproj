@@ -26,6 +26,7 @@
 		E660D0F11C7D0D6200B8225B /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = E660D0F01C7D0D6200B8225B /* Like.swift */; };
 		E660D0F31C7D196000B8225B /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E660D0F21C7D196000B8225B /* UserController.swift */; };
 		E660D1021C7D8F0200B8225B /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E660D1011C7D8F0200B8225B /* PostController.swift */; };
+		E660D1041C7D9BE900B8225B /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E660D1031C7D9BE900B8225B /* ImageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		E660D0F01C7D0D6200B8225B /* Like.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
 		E660D0F21C7D196000B8225B /* UserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
 		E660D1011C7D8F0200B8225B /* PostController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		E660D1031C7D9BE900B8225B /* ImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				E660D1011C7D8F0200B8225B /* PostController.swift */,
+				E660D1031C7D9BE900B8225B /* ImageController.swift */,
 				E660D0F21C7D196000B8225B /* UserController.swift */,
 			);
 			name = "Model Controllers";
@@ -322,6 +325,7 @@
 				E660D0E51C7D070C00B8225B /* AddPhotoTableViewController.swift in Sources */,
 				E660D0DB1C7CFDA900B8225B /* TimelineTableViewController.swift in Sources */,
 				01E3FC251BE92C7600187536 /* AppDelegate.swift in Sources */,
+				E660D1041C7D9BE900B8225B /* ImageController.swift in Sources */,
 				E660D0F31C7D196000B8225B /* UserController.swift in Sources */,
 				E660D0E11C7D05B000B8225B /* ProfileViewController.swift in Sources */,
 				E660D0F11C7D0D6200B8225B /* Like.swift in Sources */,
