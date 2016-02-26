@@ -167,8 +167,8 @@
 				E660D0DA1C7CFDA900B8225B /* TimelineTableViewController.swift */,
 				E660D0DC1C7CFFD200B8225B /* PostDetailTableViewController.swift */,
 				E660D0E61C7D07F100B8225B /* LoginSignUpChoiceViewController.swift */,
-				E660D0E41C7D070C00B8225B /* AddPhotoTableViewController.swift */,
 				E660D0E81C7D086F00B8225B /* LoginSignUpViewController.swift */,
+				E660D0E41C7D070C00B8225B /* AddPhotoTableViewController.swift */,
 				E660D0E01C7D05B000B8225B /* ProfileViewController.swift */,
 				E660D0DE1C7D03FA00B8225B /* UserSearchTableViewController.swift */,
 			);

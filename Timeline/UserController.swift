@@ -32,8 +32,8 @@ class UserController {
         completion(follows: true)
     }
     
-    static func followByUser(user: User, completion: (users: [User]?) -> Void) {
-        completion(users: mockUsers())
+    static func followByUser(user: User, completion: (followers: [User]?) -> Void) {
+        completion(followers: mockUsers())
     }
     
     static func authenticateUser(email: String, password: String, completion: (success: Bool) -> Void) {
@@ -49,7 +49,6 @@ class UserController {
     }
     
     static func logoutCurrentUser() {
-        
     }
     
     static func mockUsers() -> [User] {

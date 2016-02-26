@@ -16,7 +16,6 @@ class LoginSignUpViewController: UIViewController {
     @IBOutlet weak var bioTextField: UITextField!
     @IBOutlet weak var websiteURLTextField: UITextField!
     @IBOutlet weak var actionButton: UIButton!
-    var mode: ViewMode = .Signup
     var fieldsAreValid: Bool {
         get {
             if mode == ViewMode.Login {
@@ -34,6 +33,7 @@ class LoginSignUpViewController: UIViewController {
             }
         }
     }
+    var mode: ViewMode = .Signup
     
     enum ViewMode {
         case Login
@@ -48,7 +48,7 @@ class LoginSignUpViewController: UIViewController {
                     if success {
                         self.dismissViewControllerAnimated(true, completion: nil)
                     } else {
-                        self.presentAlertAfterFailedAuthentication("Failed to signup, Check fields adn try again", message: "Yo go gurl")
+                        self.presentAlertAfterFailedAuthentication("Failed to signup, Check fields and try again", message: "Yo go gurl")
                     }
                 })
                 return
@@ -63,7 +63,7 @@ class LoginSignUpViewController: UIViewController {
                 return
             }
         } else {
-            
+            presentAlertAfterFailedAuthentication("Missing Information", message: "Please check your input and try again")
         }
     }
     

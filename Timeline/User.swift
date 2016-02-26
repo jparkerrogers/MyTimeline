@@ -21,6 +21,7 @@ struct User: Equatable {
         self.identifier = identifier
     }
 }
+
 func ==(lhs: User, rhs: User) -> Bool {
     return (lhs.userName == rhs.userName) && (lhs.identifier == rhs.identifier)
 }
